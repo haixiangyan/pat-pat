@@ -1,5 +1,6 @@
 import React, {FC, useState} from 'react'
 import styled from "styled-components"
+import './App.css'
 
 const Container = styled.div`
   height: 100vh;
@@ -14,6 +15,7 @@ const Avatar = styled.img`
   width: 120px;
   height: 120px;
   border-radius: 4px;
+  animation: 1s ease-in-out swing;
 `
 
 const PatPat = styled.p`
