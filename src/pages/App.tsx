@@ -2,6 +2,7 @@ import React, {FC, useRef, useState} from 'react'
 import styled from "styled-components"
 import './App.css'
 import Barrage from "../components/Barrage"
+import {randomInt} from "../utils/render"
 
 const Container = styled.div`
   height: 100vh;
@@ -20,6 +21,7 @@ const Avatar = styled.img`
 `
 
 const PatPat = styled.p`
+  margin-top: 8px;
   color: #5e5e5e;
 `
 
@@ -49,7 +51,6 @@ const App: FC = () => {
         <Avatar className="shake" src={require('../assets/avatar.jpg')} alt="头像"/>
       </div>
       <PatPat>"{patter}"拍了拍"{pattee}"{content}</PatPat>
-      <Barrage>脸</Barrage>
     </Container>
   );
 }
