@@ -38,17 +38,6 @@
     }
 }
 
-@keyframes barrage {
-    from {
-        left: 100%;
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        left: 0;
-        transform: translate3d(-100%, 0, 0);
-    }
-}
-
 .swing {
     animation: 1s ease-in-out swing;
 }

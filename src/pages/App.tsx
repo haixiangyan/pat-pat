@@ -1,8 +1,6 @@
 import React, {FC, useRef, useState} from 'react'
 import styled from "styled-components"
 import './App.css'
-import Barrage from "../components/Barrage"
-import {randomInt} from "../utils/render"
 
 const Container = styled.div`
   height: 100vh;
