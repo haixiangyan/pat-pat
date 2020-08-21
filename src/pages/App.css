@@ -37,3 +37,7 @@
         transform: rotate(0.5deg);
     }
 }
+
+.swing {
+    animation: 1s ease-in-out swing;
+}
